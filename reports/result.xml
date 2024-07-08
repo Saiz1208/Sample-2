@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="5.402689">
+    <testcase classname="Swag Labs application" name="Login should be success" time="2.21498">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;steps.Loginsteps.driver&quot; is null&#13;&#10;&#9;at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)&#13;&#10;&#9;at ✽.User enters the username as &quot;standard_user&quot;(src\main\features\resource.feature:9)&#13;&#10;"><![CDATA[Given User click on the Login Link..........................................passed
+And User enters the username as "standard_user".............................failed
+And User enters the Password as "secret_sauce"..............................skipped
+When User click on the login button.........................................skipped
+Then Login should be success................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "steps.Loginsteps.driver" is null
+	at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)
+	at ✽.User enters the username as "standard_user"(src\main\features\resource.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Swag Labs application" name="Login should be success 2" time="1.641757">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;steps.Loginsteps.driver&quot; is null&#13;&#10;&#9;at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)&#13;&#10;&#9;at ✽.User enters the username as &quot;visual_user&quot;(src\main\features\resource.feature:9)&#13;&#10;"><![CDATA[Given User click on the Login Link..........................................passed
+And User enters the username as "visual_user"...............................failed
+And User enters the Password as "secret_sauce"..............................skipped
+When User click on the login button.........................................skipped
+Then Login should be success................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "steps.Loginsteps.driver" is null
+	at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)
+	at ✽.User enters the username as "visual_user"(src\main\features\resource.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Swag Labs application" name="Login should fail" time="1.545952">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;steps.Loginsteps.driver&quot; is null&#13;&#10;&#9;at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)&#13;&#10;&#9;at ✽.User enters the username as &quot;sathishkumarsekar1995@gmail.com&quot;(src\main\features\resource.feature:26)&#13;&#10;"><![CDATA[Given User click on the Login Link..........................................passed
+And User enters the username as "sathishkumarsekar1995@gmail.com"...........failed
+And User enters the Password as "1208@Sa"...................................skipped
+When User click on the login button.........................................skipped
+But Login should be fail....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "steps.Loginsteps.driver" is null
+	at steps.Loginsteps.userEntersTheUsernameAsSathishkumarsekarGmailCom(Loginsteps.java:20)
+	at ✽.User enters the username as "sathishkumarsekar1995@gmail.com"(src\main\features\resource.feature:26)
+]]></failure>
+    </testcase>
+</testsuite>
